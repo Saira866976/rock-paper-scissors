@@ -1,0 +1,23 @@
+@media only screen and (min-width: 200px) and (max-width: 567px){
+    .Game_name{
+       
+        padding: 20px;
+    }
+    h1{
+        font-size: 30px;
+    }
+    .game_Images{
+        margin-top:100px ;
+        gap: 15px;
+        font-size: 20px;
+       
+    }
+    img{
+        width: 100px;
+        height: 100px;
+    }
+  
+    hr{
+        width: 50px;
+    }
+}
