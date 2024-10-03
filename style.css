@@ -1,0 +1,93 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.Game_name{
+    background: crimson;
+    padding: 30px;
+}
+h1{
+    text-align: center;
+    color: white;
+    letter-spacing: 3px;
+    font-size: 40px;
+    word-spacing: 10px;
+}
+
+.game_Images{
+   
+    margin-top:100px ;
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+}
+img{
+    display: flex;
+   
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2), 0 4px 16px 0 rgba(0,0,0,0.5);
+    outline: 1px solid white;
+    outline-offset: -4px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+hr{
+    height: 1px;
+    background-color: crimson;
+    margin-top: 10px;
+     margin-left: 25px;
+    width: 100px;
+    border: none;
+}
+img:hover{
+    border: 2px solid black;
+}
+.game_score{
+    margin-top: 30px;
+    justify-content: center;
+    display: flex;
+    font-size: 18px;
+    gap: 30px;
+    font-weight: 700;
+}
+.comp{
+ display: flex;
+ flex-direction: column;
+}
+button{
+    margin-top: 10px;
+  background-color: transparent;
+  border: none;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.winner{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+input{
+    font-size: 32px;
+   width: 300px;
+   background-color: crimson;
+   border: none;
+   text-align: center;
+   border-radius: 15px;
+   padding: 5px;
+   color: white;
+   
+}
+::placeholder{
+    color: white;
+}
+
+
+
